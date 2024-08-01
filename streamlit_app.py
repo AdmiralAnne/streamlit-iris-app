@@ -42,7 +42,9 @@ if st.button("Predict"):
     st.success(f"{iris.target_names[prediction]}")
 
 with st.expander('Dataset'):
-    st.title("Raw data")
+    st.subheader("Raw data")
     df
+    st.subheader("Featureset")
     X
+    st.subheader("target")
     y
