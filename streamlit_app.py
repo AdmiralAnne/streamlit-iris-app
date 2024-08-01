@@ -14,6 +14,6 @@ df['species'] = df['target'].apply(lambda x: iris.target_names[x])
 
 X = iris.data
 y = iris.target
-
+iris
 X
 y
