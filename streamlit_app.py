@@ -1,10 +1,4 @@
 import streamlit as st
 import time
-
+# time library seems to be inbuilt so, no need to intall dependencies
 st.title('⏳ Pomodoro Timer')
-
-curr = time.time()
-curr
-
-curr_real = time.localtime(curr)
-curr_real
