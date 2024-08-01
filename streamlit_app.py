@@ -1,9 +1,8 @@
 import streamlit as st
-import datetime
-import time
-# time library seems to be inbuilt so, no need to intall dependencies
+import pandas as pd
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+from sklearn.svm import SVC
+
+# time library seems to be inbuilt so, no 
 st.title('⏳ Pomodoro Timer')
-
-t = st.time_input("Select a time", datetime.time(0, 1))
-
-st.write("Time is set to", t)
