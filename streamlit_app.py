@@ -3,6 +3,6 @@ import time
 
 st.title('⏳ Pomodoro Timer')
 
-curr = time.time()
-print("Current time in seconds since epoch =", curr)
+curr = time.ctime(1627908313.717886)
+print("Current time:", curr)
 curr
