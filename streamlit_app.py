@@ -5,7 +5,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 
 # time library seems to be inbuilt so, no 
-st.title('💐 Iris Flower Classification')\
+st.title('💐 Iris Flower Classification')
+st.info('A simple ML app for predicting Iris flower classification based on key physical features.')
 
 iris = load_iris()
 df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
@@ -37,5 +38,5 @@ if st.button("Predict"):
     prediction = model.predict(new_data)[0]
 
     # Display the predicted species
-    st.header("**Predicted Species**")
+    st.text("**Predicted Species**")
     st.success(f"{iris.target_names[prediction]}")
