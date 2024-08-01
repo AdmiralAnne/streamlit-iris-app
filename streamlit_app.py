@@ -43,7 +43,7 @@ if st.button("Predict"):
 
 st.divider()
 
-with st.expander('Dataset'):
+with st.expander('**Dataset**'):
     st.subheader("Raw data")
     df
     st.subheader("Feature set")
