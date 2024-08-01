@@ -31,11 +31,11 @@ petal_width = st.number_input("Petal Width (cm)", min_value=0.0)
 
 # Create a button to predict
 if st.button("Predict"):
-# Create a new data point
-new_data = [[sepal_length, sepal_width, petal_length, petal_width]]
+    # Create a new data point
+    new_data = [[sepal_length, sepal_width, petal_length, petal_width]]
 
-# Make a prediction
-prediction = model.predict(new_data)[0]
+    #Make a prediction
+    prediction = model.predict(new_data)[0]
 
-# Display the predicted species
-st.write(f"Predicted Species: {iris.target_names[prediction]}")
+    # Display the predicted species
+    st.write(f"Predicted Species: {iris.target_names[prediction]}")
