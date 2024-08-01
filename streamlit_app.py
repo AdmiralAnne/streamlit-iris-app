@@ -44,7 +44,7 @@ if st.button("Predict"):
 with st.expander('Dataset'):
     st.subheader("Raw data")
     df
-    st.subheader("Featureset")
+    st.subheader("Feature set")
     X
     st.subheader("target")
     y
