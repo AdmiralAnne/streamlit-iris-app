@@ -23,10 +23,10 @@ model.fit(X_train,y_train)
 
 
 # User input for flower measurements
-sepal_length = st.slider("Sepal Length (cm)", min_value=0.0, max_value=7.0)
-sepal_width = st.number_input("Sepal Width (cm)", min_value=0.0)
-petal_length = st.number_input("Petal Length (cm)", min_value=0.0)
-petal_width = st.number_input("Petal Width (cm)", min_value=0.0)
+sepal_length = st.slider("Sepal Length (cm)", min_value=0.0, max_value=7.0,s tep=0.2)
+sepal_width = st.slider("Sepal Width (cm)", min_value=0.0, max_value=7.0, step=0.2)
+petal_length = st.slider("Petal Length (cm)", min_value=0.0, max_value=7.0, step=0.2)
+petal_width = st.slider("Petal Width (cm)", min_value=0.0, max_value=7.0, step=0.2)
 
 # Create a button to predict
 if st.button("Predict"):
