@@ -3,6 +3,8 @@ import time
 
 st.title('⏳ Pomodoro Timer')
 
-curr = time.ctime(1627908313.717886)
-print("Current time:", curr)
+curr = time.time()
 curr
+
+curr_real = time.ctime(curr)
+curr_real
