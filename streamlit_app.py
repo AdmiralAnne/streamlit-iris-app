@@ -41,6 +41,8 @@ if st.button("Predict"):
     st.text("🔻Predicted Species🔻")
     st.success(f"{iris.target_names[prediction]}")
 
+st.divider()
+
 with st.expander('Dataset'):
     st.subheader("Raw data")
     df
