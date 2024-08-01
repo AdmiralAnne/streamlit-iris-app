@@ -17,7 +17,7 @@ Welcome to the Iris Flower Classification app! 🌸 This app predicts the specie
 4. 🎛️ Use the sliders to input flower measurements (Sepal Length, Sepal Width, Petal Length, Petal Width).
 5. 🌟 Click the "Predict" button to see the predicted species.
 
-**Note:** The app is also deployed at [Streamlit (marji-iris-app.streamlit.app)](Streamlit (marji-iris-app.streamlit.app)). However, it's best to run it locally for customization. 🚀
+**Note:** The app is also deployed at [Streamlit (marji-iris-app.streamlit.app)](https://marji-iris-app.streamlit.app)). However, it's best to run it locally for customization. 🚀
 
 ### 🌼 Dataset
 
