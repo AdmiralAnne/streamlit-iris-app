@@ -40,3 +40,9 @@ if st.button("Predict"):
     # Display the predicted species
     st.text("🔻Predicted Species🔻")
     st.success(f"{iris.target_names[prediction]}")
+
+with st.expander('Dataset'):
+    st.title("Raw data")
+    df
+    X
+    y
