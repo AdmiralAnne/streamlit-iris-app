@@ -38,5 +38,5 @@ if st.button("Predict"):
     prediction = model.predict(new_data)[0]
 
     # Display the predicted species
-    st.text("*Predicted Species*")
+    st.text("🔻Predicted Species🔻")
     st.success(f"{iris.target_names[prediction]}")
