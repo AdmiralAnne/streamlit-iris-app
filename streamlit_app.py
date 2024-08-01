@@ -21,7 +21,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 model = SVC()
 model.fit(X_train,y_train)
 
-st.title("Iris Flower Classifier")
 
 # User input for flower measurements
 sepal_length = st.number_input("Sepal Length (cm)", min_value=0.0)
