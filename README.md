@@ -18,12 +18,13 @@ Welcome to the Iris Flower Classification app! 🌸 This app predicts the specie
 5. 🌟 Click the "Predict" button to see the predicted species.
 
 ## 🔗 Link to Application
-**Note:** The app is deployed at [Streamlit](https://marji-iris-app.streamlit.app). However, it's best to run it locally for customization. 🚀
+**Note:** The app is deployed at [Streamlit](https://marji-iris-app.streamlit.app). However, it's best to run it locally for customization. 🚀<br>
+
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://marji-iris-app.streamlit.app)
 
 ### 🌼 Dataset
-The app uses the classic Iris flower dataset. You can explore the data within the app's "**Dataset**" section.
-[![Kaggle_Dataset](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://www.kaggle.com/datasets/uciml/iris)
+The app uses the classic Iris flower dataset. You can explore the data within the app's "**Dataset**" section.<br>
+[Kaggle_Dataset](https://www.kaggle.com/datasets/uciml/iris)
 
 **Data Breakdown:**
 * 📈 **Raw Data:** Contains all flower measurements.
