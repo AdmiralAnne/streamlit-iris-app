@@ -5,4 +5,4 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 
 # time library seems to be inbuilt so, no 
-st.title('⏳ Pomodoro Timer')
+st.title('💐 IIris Flower Classification')
